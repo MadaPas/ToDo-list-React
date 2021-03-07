@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+$alabaster: #f8f8f8;
+$lavender:#83677B;
+$serif: 'Raleway', sans-serif;
+
+body {
+  background: $alabaster;
+  font-family: $serif;
+}
+
+.title {
+  text-align: center;
+  color: $lavender;
+  padding-top: 60px;
+  font-size: 40px;
+}

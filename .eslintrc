@@ -1,0 +1,36 @@
+{
+    "env": {
+      "browser": true,
+      "es2021": true
+    },
+    "extends": [
+      "plugin:react/recommended",
+      "airbnb",
+      "salt",
+      "salt/react"
+    ],
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "ecmaVersion": 12,
+      "sourceType": "module"
+    },
+    "plugins": [
+      "react"
+    ],
+    "rules": {
+      "react/jsx-closing-bracket-location": [
+        "error",
+        {
+          "selfClosing": "after-props",
+          "nonEmpty": "after-props"
+        }
+      ],
+      "react/jsx-filename-extension": ["error", {
+        "extensions": [".js"]
+      }],
+      "react/prop-types": "off"
+    }
+  }
+  

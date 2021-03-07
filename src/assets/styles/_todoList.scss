@@ -1,0 +1,27 @@
+$lavender:#83677B;
+
+.info {
+  text-align: center;
+  color: $lavender;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.items-container {
+  margin-bottom: 60px;
+  display: block;
+  align-items: center;
+}
+
+.the-todos,
+.the-dones {
+  display: block;
+  margin-left: 20%;
+}
+
+.task-label {
+  color: $lavender;
+  font-size: 20px;
+  margin-left: 2%;
+  font-weight: bold;
+}

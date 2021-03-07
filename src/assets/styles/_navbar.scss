@@ -1,0 +1,20 @@
+$rum: #846c92;
+
+.nav {
+    height: 50px;
+    width: 100%;
+    background-color:$rum;
+    position: fixed;
+    text-align: center;
+  }
+  
+  .nav>.nav-header {
+    display: inline-block;
+    padding: 5px;
+    position: absolute;
+  }
+
+  .logo-navbar {
+    display: block;
+    width: 65px;
+  }

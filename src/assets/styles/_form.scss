@@ -1,0 +1,38 @@
+$tamarind: #2E1114;
+$rum: #846c92;
+$white: #ffffff;
+$black: rgba(1, 1, 1, 1);
+
+.form {
+    margin: 10px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+  }
+
+.input {
+  padding: 10px;
+  width: 500px;
+  border-radius: 100px;
+  border: 2px solid $tamarind;
+  outline: none;
+}
+
+.input:hover {
+  box-shadow: 5px 5px 10px -5px $black;
+}
+
+.press {
+  padding: 10px;
+  width: fit-content;
+  border: 2px solid $tamarind;
+  border-radius: 100px;
+  background-color: $white;
+  outline: none;
+}
+
+.press:hover {
+  background: $black;
+  color: $white;
+  outline: none;
+}

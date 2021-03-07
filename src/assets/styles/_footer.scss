@@ -1,0 +1,16 @@
+$hillary: #aba085;
+$rum: #846c92;
+
+footer {
+    background-color: $rum;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    font-size: 20px;
+    color: $hillary;
+}
